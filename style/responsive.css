@@ -1,0 +1,48 @@
+@media screen and (max-width:650px){
+    header .container{
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    font-family: 'Trebuchet MS', Arial, sans-serif, Times, serif, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    color: var(--vermelho);
+}
+
+}
+/*tela abaixo de  450px - Celular*/
+
+@media screen and (max-width:450px){
+header nav a{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+header .logo{
+    margin: 5px;
+    height: 45%;
+    width: 45%;
+    align-content: left;
+    justify-content: left;
+    text-align: left;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.titulo{
+    font-family: 'Trebuchet MS', Arial, sans-serif, Times, serif, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    color: var(--vermelho);
+}
+
+
+}

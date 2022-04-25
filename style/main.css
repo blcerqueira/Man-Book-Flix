@@ -1,0 +1,150 @@
+:root{
+    --vermelho: rgb(180,0,0);
+    --vermelhoescuro: rgb(80,0,0);
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elemntos base*/
+
+body{
+    color: white;
+    background: var(--preta);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    font-family: sans-serif;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: WHITE;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+header nav a:hover, a:active{ 
+    color: white;
+    background: rgba(255,255,255,.05);
+
+}
+
+/*Conteudo principal*/
+
+.img_principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%),
+    url('/img/topo.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 350px;
+    background-size: cover;
+    border-radius: 2%;
+}
+.texto-foto-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    background: linear-gradient(rgba(0, 0, 0, .30), rgba(0,0,0,.10) 100%);
+}
+
+.titulo{
+    font-family: 'Trebuchet MS', Arial, sans-serif, Times, serif, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 5%
+    ;
+    margin-bottom: 2%;
+    color: WHITE;
+}
+
+.descricao{
+    margin-bottom: 2%;
+    font-size: 20px;
+
+}
+/*Botao de dentro do texto da imagem*/
+
+a.hiper_texto_princ:link, a.hiper_texto_princ:visited{
+    font-size: 14px;
+    font-style: italic;
+    color: WHITE;
+    text-decoration: underline;
+    font-weight: bold ;
+}
+a.hiper_texto_princ:hover{
+    text-decoration: none;
+    color: var(--vermelho);
+    background-color: bisque;
+    transition: 0.3s ease all;
+    text-decoration: underline;
+}
+a.hiper_texto_princ:active{
+    text-decoration: none;
+}
+.botoes{
+    margin-top: 3%;
+    margin-bottom: 3%;
+   
+
+}
+.botao_sobre_nos{
+    background-color: var(--vermelho);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+.botao_sobre_nos:hover{
+    background-color: var(--vermelhoescuro);
+    color: white;
+    transition: .5s ease all;
+}
+
+.botao_sobre_nos i{
+    margin-right: 8px;
+}
+.container{
+    color: RGB(221,221,221);
+    margin: 2%;
+    text-align: justify;
+}
+.box-filme{
+    height: 380px;
+    border-radius: 5%;
+}
+.estrela {
+height: 20px;
+width: 20px;
+
+}
